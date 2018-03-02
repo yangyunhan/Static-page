@@ -1,0 +1,120 @@
+@import "nav+footer+copyright.css";
+/*整个页面是一个容器，宽度100%，外边框0
+home页面有6个盒子，盒子1为可切换的图片（？？？没有实现可切换），盒子2为导航栏，盒子3为左侧列表栏，
+盒子4为右侧内容，盒子5为联系方式模块，盒子6为页脚*/
+
+.container{
+    width: 100%;
+    height:100%;
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.body-style{
+    min-width: 1280px;
+}
+.tab{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.tab>img:not(:first-child){
+    display: none;
+}
+.header{
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.centersection{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    background-color: #F0F0EE;
+    overflow: hidden;
+}
+/*盒子3：两个块
+背景颜色、字体、字体颜色、文字排列方式
+宽度（百分比）、高度
+左浮动、左侧不浮动*/
+.sidebar{
+    background-color: #D7D4D0;
+    color:gray;
+    text-align: justify;
+    width:38.3%;
+    clear: left;
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 1125px;
+    margin-bottom: -1125px;
+}
+/*盒子3附属样式：
+内边距、行高、字体大小*/
+.sidebar div.section{
+    padding:0 100px 55px 100px;
+    line-height: 180%;
+    font-size: 14px;
+}
+/*标题大小*/
+.sidebar span.title{
+    font-size: 22px;
+}
+/*盒子4：3个块
+背景颜色、字体、字体颜色、字号、行间距、文本排列样式
+宽度、高度
+左浮动、右侧不浮动
+*/
+.article{
+    background-color: #F0F0EE;
+    color:gray;
+    line-height: 180%;
+    font-size: 14px;
+    text-align: justify;
+    width: 61.7%;
+    clear: right;
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 1190px;
+    margin-bottom: -1190px;
+}
+
+/*标签图片大小*/
+
+.article img.sidebarIcon{
+    width: 4%;
+    display: inline-block;
+    float: left;
+    clear: left;
+    padding-top: 16px;
+    padding-left: 80px;
+}
+/*小盒子右侧图片大小*/
+
+.article img.img_right{
+    width: 20%;
+    display: inline-block;
+    float: left;
+    clear: right;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.article img.sidebarIcon + div.news{
+    padding-left: 20px;
+}
+.article div.news + img.img_right{
+    padding-left: 35px;
+}
+/*小盒子中的文字样式：
+内边距、宽度、高度
+字体大小、左侧浮动
+*/
+.article div.news{
+    width: 48%;
+    font-size: 13px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+

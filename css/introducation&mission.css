@@ -1,0 +1,79 @@
+@import "nav+footer+copyright.css";
+/*整个页面是一个容器，宽度100%，外边框0
+home页面有5个盒子，盒子2为导航栏，盒子3为内容上，
+盒子4为内容下，盒子5为联系方式模块，盒子6为页脚*/
+div.container{
+    width: 100%;
+    height:100%;
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.body-style{
+    min-idth: 1280px;
+}
+
+/*盒子3：两个块
+字体颜色、字体、字号、行高、文本排列方式
+高度、内边距、两侧不浮动*/
+.article-top{
+    color:gray;
+    font-size: 13px;
+    line-height: 190%;
+    text-align: justify;
+    padding-top:80px;
+    clear: both;
+}
+/*盒子3附属样式：
+宽度、右侧浮动*/
+.article-top div.introduction{
+    float: left;
+    width: 45%;
+    padding-top: 23px;
+}
+/*块2字体大小写转换*/
+.article-top span.title{
+    text-transform: uppercase;
+    color: #252E30;
+    font-size: 25px;
+}
+/*块1图片大小*/
+.article-top img.style{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    clear: left;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 80px;
+}
+
+/*盒子4：两个块
+背景颜色、字体颜色、字体、字号、行高、文本排列方式
+高度、宽度、内边距、左右不浮动*/
+.article-bottom{
+    background-color: #ECECEC;
+    color:gray;
+    font-size: 13px;
+    line-height: 180%;
+    text-align: center;
+    height: auto;
+    padding:80px 250px 0 250px;
+    width:auto;
+    clear: both;
+}
+.article-bottom .triangle-down{
+    width: 0;
+    height: 0;
+    border-width: 17px 22px 0;
+    border-style: solid;
+    border-color: #ECECEC transparent;
+    margin-top: 95px;
+    margin-bottom: -16px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.article-bottom h2{
+    text-transform: uppercase;
+    color: #252E30;
+}

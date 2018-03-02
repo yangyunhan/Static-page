@@ -1,0 +1,58 @@
+@import "nav+footer+copyright.css";
+/*整个页面是一个容器，宽度100%，外边框0
+home页面有4个盒子，盒子2为导航栏，盒子3为内容，
+盒子5为联系方式模块，盒子6为页脚*/
+div.container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.body-style{
+    min-width: 1280px;
+}
+/*盒子3：11个块
+字体颜色、字体、字号、行高、文本排列方式
+高度、内边距、两侧不浮动*/
+.article{
+    color:#A9A8AA;
+    font-size: 13px;
+    line-height: 190%;
+    text-align: justify;
+    height: auto;
+    padding: 80px 170px 165px 162px;
+    clear: both;
+}
+/*块1样式：
+内边距*/
+.article div.section1{
+    padding-bottom: 57px;
+    padding-right: 110px;
+}
+/*块3、5、7、9样式：
+内边距*/
+.article div.section2{
+    padding-top: 15px;
+    padding-bottom: 57px;
+    padding-right: 110px;
+    border-top: 1px gray solid;
+}
+/*块11样式：
+内边距*/
+.article div.section3{
+    padding-top: 15px;
+    padding-right: 110px;
+    border-top: 1px gray solid;
+}
+/*标题样式：
+本文大小写转换、字号、字粗细、字体颜色、行高*/
+.article h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 200;
+    color:#555555;
+    line-height: 130%;
+}
+.article p{
+    padding-right: 75px;
+}

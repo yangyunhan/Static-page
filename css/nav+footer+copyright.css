@@ -1,0 +1,192 @@
+/*盒子2：两个块
+背景颜色、字体颜色、字体、字体大小
+导航栏高度、内边距
+两边不浮动*/
+
+.nav{
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    /*height: 36px;
+    vertical-align: middle;*/
+    padding:6px 140px 6px 165px;
+    clear: both;
+}
+/*盒子2附属样式：
+主logo图片大小、内边距*/
+.nav img.size{
+    width: 212px;
+}
+/*主logo的浮动方式*/
+.nav div.float{
+    float: left;
+}
+/*列表：展示方式、列表样式、内边距*/
+.nav ul{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 110px;
+}
+/*列表项：浮动方式*/
+.nav li{
+    float: left;
+}
+/*列表项间距*/
+.nav li + li{
+    padding-left:45px;
+}
+.nav a:link{
+    color: white;
+    text-decoration: none;
+}
+.nav a:visited{
+    color: white;
+    text-decoration: none;
+}
+/*导航项鼠标滑过样式*/
+.nav a:hover{
+    color:#00E080;
+    text-decoration: none;
+}
+
+/*盒子5：三个块
+背景颜色、字体颜色、字体、文本排列样式
+宽度
+两侧不浮动*/
+.footer{
+    background-color: #252E30;
+    color:#7F8280;
+    font-size: 15px;
+    text-align: justify;
+    width:100%;
+    clear: both;
+    padding-top: 80px;
+    padding-bottom: 360px;
+}
+/*盒子5附属样式：
+子块3：内间距、文字的行间距*/
+.footer div.content{
+    padding-left: 275px;
+    padding-bottom: 50px;
+    line-height: 150%;
+    width: 34%;
+    float: left;
+}
+/*子块1、2：
+显示方式、左浮动
+内边距、宽度*/
+.footer img{
+    display: inline-block;
+    float: left;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 15px;
+    width: 11%;
+}
+/*子块3的字体样式1*/
+.footer p span.color{
+    color: white;
+}
+/*子块3的字体样式2*/
+.footer p span.title{
+    color: white;
+    font-size: 25px;
+}
+/*盒子6：两个块
+背景颜色、字体颜色、字号、文本排列方式、字体
+宽度、内边距、左右不浮动
+上边框样式、颜色、宽度*/
+.copyright{
+    background-color: black;
+    color:gray;
+    font-size: 11px;
+    text-align: center;
+    width:100%;
+    padding-top:28px ;
+    padding-bottom: 40px;
+    clear: both;
+    border-top:solid 1px #7F8280;
+}
+/*盒子6附属样式：
+块2样式：展示方式、内边距*/
+.copyright div.submenu{
+    display:inline-block;
+    padding-top: 12px;
+}
+/*块2元素内距离*/
+.copyright a + a{
+    padding-left: 5px;
+}
+
+.icon-twitter1{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-image: url("../img/contact1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px 27px;
+}
+.icon-twitter1:hover{
+    background-image: url("../img/contact1-white.png");
+}
+.icon-twitter2{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-image: url("../img/contact2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px 27px;
+}
+.icon-twitter2:hover{
+    background-image: url("../img/contact2-white.png");
+}
+.icon-twitter3{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-image: url("../img/contact3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px 27px;
+}
+.icon-twitter3:hover{
+    background-image: url("../img/contact3-white.png");
+}
+.icon-twitter4{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-image: url("../img/contact4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px 27px;
+}
+.icon-twitter4:hover{
+    background-image: url("../img/contact4-white.png");
+}
+.icon-twitter5{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-image: url("../img/contact5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px 27px;
+}
+.icon-twitter5:hover{
+    background-image: url("../img/contact5-white.png");
+}
+.icon-twitter6{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-image: url("../img/contact6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px 27px;
+}
+.icon-twitter6:hover{
+    background-image: url("../img/contact6-white.png");
+}

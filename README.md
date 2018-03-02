@@ -1,4 +1,4 @@
 # Static-page
-static web pages
+My first static web pages
 
-You can look the style of the static web pages via open the html in the html file.
+You can look them via open the htmls in the html file.
